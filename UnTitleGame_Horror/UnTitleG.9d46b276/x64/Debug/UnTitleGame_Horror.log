@@ -1,0 +1,8 @@
+﻿  Player.cpp
+Player.obj : error LNK2005: "bool __cdecl Pad::IsPress(int)" (?IsPress@Pad@@YA_NH@Z) は既に main.obj で定義されています。
+Player.obj : error LNK2005: "bool __cdecl Pad::IsTrigger(int)" (?IsTrigger@Pad@@YA_NH@Z) は既に main.obj で定義されています。
+Player.obj : error LNK2005: "void __cdecl Pad::Update(void)" (?Update@Pad@@YAXXZ) は既に main.obj で定義されています。
+Player.obj : error LNK2005: "int Pad::padInput" (?padInput@Pad@@3HA) は既に main.obj で定義されています。
+Player.obj : error LNK2005: "int Pad::lastInput" (?lastInput@Pad@@3HA) は既に main.obj で定義されています。
+Player.obj : error LNK2019: 未解決の外部シンボル "public: virtual __cdecl ObjectBase::~ObjectBase(void)" (??1ObjectBase@@UEAA@XZ) が関数 "int `public: __cdecl Player::Player(void)'::`1'::dtor$0" (?dtor$0@?0???0Player@@QEAA@XZ@4HA) で参照されました
+C:\Users\安藤 歩夢\Desktop\UnTitleGame_Horror\x64\Debug\UnTitleGame_Horror.exe : fatal error LNK1120: 1 件の未解決の外部参照
